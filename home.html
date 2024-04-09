@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой сайт о себе</title>
+    <title>Home Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,9 +20,15 @@
         }
         main {
             padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
         }
         section {
             margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #007bff;
@@ -30,33 +36,50 @@
         p {
             line-height: 1.6;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-<header>
-    <h1>Добро пожаловать на сайт обо мне</h1>
-</header>
-<main>
-    <section>
-        <h2>Обо мне</h2>
-        <p>Привет! Меня зовут Иван, и я студент компьютерных наук из прекрасного города Городск.</p>
-    </section>
-    <section>
-        <h2>Мои интересы</h2>
-        <p>Я увлекаюсь программированием, чтением, исследованием новых технологий и игрой на гитаре.</p>
-    </section>
-    <section>
-        <h2>Мои достижения</h2>
-        <ul>
-            <li>Победитель хакатона "Кодемания 2023"</li>
-            <li>Автор блога о программировании с более чем 1000 подписчиков</li>
-            <li>Завершил курс по веб-разработке на Coursera</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Связаться со мной</h2>
-        <p>Вы можете связаться со мной по адресу электронной почты: <a href="mailto:ivan@example.com">ivan@example.com</a>.</p>
-    </section>
-</main>
+    <header>
+        <h1>Welcome to My Home Page</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is [Your Name]. I'm a student at [Your School] studying in [Year of Study].</p>
+            <p>You can reach me via email at <a href="mailto:your_email@example.com">your_email@example.com</a>.</p>
+            <img src="your_photo.jpg" alt="Your Photo">
+        </section>
+        <section>
+            <h2>Interesting Facts</h2>
+            <ul>
+                <li>I'm passionate about [Your Passion].</li>
+                <li>My favorite book is [Your Favorite Book].</li>
+                <li>I participated in [Interesting Events or Competitions].</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Additional Resources</h2>
+            <p>View my resume: <a href="resume.html">Resume</a></p>
+            <p>My schedule: <a href="schedule.html">Schedule</a></p>
+        </section>
+    </main>
 </body>
 </html>
